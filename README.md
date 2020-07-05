@@ -33,12 +33,16 @@ It is an .ipynb(ipython notebook) to demonstrate whether a customer would leave 
 
 The dataset has about 8000 samples of one class and 2000 samples of another class. This indicates that there was a huge imbalance in the dataset. This was fixed using __SMOTE__ from __imblearn__ library.
 
+The data was splitted and preprocessed using __sklearn__ library.
+
+Evaluation metric : __f1_score__
+
 Various models were applied on the dataset like:
-* Logistic Regression
-* Extra Trees Classifier
-* Random Forest Classifier
-* XgBoost Classifier ( gave the best accuracy of 89.5%)
-* Artificial Neural Network 
+* Logistic Regression (__sklearn__)
+* Extra Trees Classifier (__sklearn__)
+* Random Forest Classifier (__sklearn__)
+* XgBoost Classifier (__xgboost__) [Best accuracy of 89.5%]
+* Artificial Neural Network (__Tensorflow and Keras__)
 
 
 
