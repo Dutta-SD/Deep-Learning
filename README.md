@@ -44,6 +44,9 @@ Various models were applied on the dataset like:
 * XgBoost Classifier (__xgboost__) [Best accuracy of 89.5%]
 * Artificial Neural Network (__Tensorflow and Keras__)
 
+__3. Neural Image Transfer Using Pytorch__
+Created a neural style transfer model using PYTorch
+
 
 
 
